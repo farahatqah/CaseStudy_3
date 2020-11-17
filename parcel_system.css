@@ -1,0 +1,24 @@
+.header{
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.choice{
+  text-align: center;
+  margin: 60px;
+}
+.choice a{
+  text-align: center;
+  margin: 30px;
+  padding: 30px;
+  background-color: #70DBD6;
+  font-size: 20px;
+  text-decoration: none;
+  color: #1C3093;
+}
+.choice a:hover{
+  background-color: #1C3093;
+  color: #70DBD6
+}

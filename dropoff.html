@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="parcel_system.css">
+    <title>Drop Off Parcel</title>
+  </head>
+  <body>
+    <script>
+      {
+        alert("PARCEL CANNOT EXCEED 5!!!");
+      }
+    </script>
+
+    <h3>Drop Off Parcel</h3>
+    <form action="parcel_dropoff.php" method="post">
+      <label>Choose your storage: </label>
+      <input type="number" name="storage_no" value="1" min="1" max="30">
+      <br><br>
+
+      <label>Enter tracking no: </label>
+      <input type="text" name="tracking_no">
+      <br><br>
+
+      <input type="submit" name="submit" value="Submit">
+    </form>
+
+  </body>
+</html>
