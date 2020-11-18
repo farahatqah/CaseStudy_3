@@ -4,5 +4,5 @@ function function_alert($message) {
     echo "<script>alert('$message');</script>";
 }
 // Function call
-function_alert("Message sent to recipient: Recipient must pick up within 2 days");
+function_alert("Message sent to recipient: Recipient must pick up within 2 days. The parcel will be returned to the sender after two days");
  ?>
